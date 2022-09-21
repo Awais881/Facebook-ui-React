@@ -1,0 +1,24 @@
+room {
+    height: 100vh;
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+.App>.icon {
+    margin-left: 95%;
+}
+
+
+
+.dark {
+    --bg-color: rgb(21, 32, 43);
+    --main-color: white;
+    --icon-color: #fff;
+  
+  }
+  
+  .lit {
+    --bg-color: rgb(247, 247, 247);
+    --main-color: black;
+    --icon-color: #000000;
+  }
