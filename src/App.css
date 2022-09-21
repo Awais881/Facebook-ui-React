@@ -4,21 +4,33 @@ room {
     background-color: var(--bg-color);
 }
 
-.App>.icon {
+.App> .darkMode{
+  
     margin-left: 95%;
 }
 
 
 
 .dark {
-    --bg-color: rgb(21, 32, 43);
-    --main-color: white;
-    --icon-color: #fff;
+   background-color: #000000;
+   color: white;
+
   
   }
   
   .lit {
-    --bg-color: rgb(247, 247, 247);
-    --main-color: black;
-    --icon-color: #000000;
+   background-color: white;
+   color: black;
+  
   }
+  .dark .head1{
+    box-shadow: 0px;
+  }
+  .darkMode{
+    color: var(--main-color);
+    background-color: var(--bg-color);
+    border: none;
+   font-size: larger;
+
+  }
+ 

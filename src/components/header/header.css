@@ -67,7 +67,7 @@ body{
 }
 
  .head2 div{
-    background-color: #F0F2F5;
+    /* background-color: #F0F2F5; */
     /* height: 35px; */
     border-radius: 50%;
     /* width: 35px; */
@@ -80,8 +80,12 @@ body{
     border-radius: 50%;
 
 }
-.profile :hover {
+.profile:hover {
     cursor: pointer;
     background-color: #cccecf;
+   
 
+}
+.head1 .head2:hover{
+    cursor: pointer;
 }

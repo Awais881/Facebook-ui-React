@@ -4,7 +4,7 @@ import Header from './components/header/header'
 
 import { useState } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMoon } from '@fortawesome/free-solid-svg-icons'
+import { faMoon,faSun } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -22,7 +22,10 @@ function App() {
    
 
     <div className={`App ${(isLit) ? "lit" : "dark"}`}>
-      { <div className="icon"><FontAwesomeIcon icon={faMoon} onClick={clickHandler} /></div> }
+      
+       <button className="darkMode"  onClick={clickHandler}>{(isLit)? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun}/>}
+      
+      </button> 
 
 
 
